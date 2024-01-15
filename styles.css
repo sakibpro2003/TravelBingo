@@ -93,7 +93,7 @@ line-height: normal;
     margin-bottom: 1.5rem;
 }
 .banner-img{
-    position: absolute;
+    position: relative;
 }
 .banner-content{
     /* background-color: aqua; */
@@ -117,5 +117,31 @@ line-height: normal;
     padding: 16px;
     border-radius: 8px;
 background: rgba(255, 255, 255, 0.30);
+}
+
+.popular-tours{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+}
+
+.popular-tour-text{
+    width: 550px;
+
+}
+
+.ul{
+    margin: 20px 0px;
+}
+
+.popular-title{
+    margin-bottom: 20px;
+}
+
+.popular-tour-text p{
+    margin-bottom: 20px;
+    line-height: 35px;
 }
  
