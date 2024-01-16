@@ -376,14 +376,85 @@ margin-bottom: 20px;
     align-items: center;
 }
 
-.navbar{
-    border: 3px solid blue;
+
+
+
+.newslatter-title{
+    margin-bottom: 10px;
 }
 
-body{
-    border: 4px solid turquoise;
+.newslatter-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+
+}
+.newslatter-img-container{
+    position: relative;
+}
+
+.rotate-btn{
+    position: absolute;
+    width: 224px;
+    top: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    /* text-align: center; */
+/* height: 120px; */
+transform: rotate(-19.628deg);
+flex-shrink: 0;
+}
+.newslatter-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.newlatter-desc{
+    margin-bottom: 20px;
+}
+
+.newslatter-input{
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+border: none;
+margin: 16px 0;
+}
+
+.subscribe{
+    width: 393px;
+
+}
+
+.review-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
     margin: 0 auto;
-    overflow-x: hidden;
+    margin-bottom: 50px;
+}
+
+.review-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.review-container h3{
+    margin: 50px 0;
+}
+
+.review-image img{
+    width: 80%;
+    border-radius: 20px;
+    border: 10px solid #FF5400;
 }
 
 
@@ -422,10 +493,7 @@ hr{
     margin: 30px 0px;
 }
 
-section{
-    border: 3px solid red;
-    margin: 0 auto;
-}
+
 
 /* resposive style  */
 @media screen and (max-width:600px) {
@@ -559,6 +627,32 @@ section{
 
     .footer-icon i{
         margin-right: 20px;
+    }
+    .newslatter-img{
+        width: 390px;
+    }
+    .newslatter-text{
+        padding: 15px;
+    }
+
+    .newslatter-container{
+        flex-direction: column;
+    }
+
+    .rotate-btn{
+        width: 130px;
+        top: 60%;
+        right: 15%;
+    }
+
+    .review-image{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .deal-icon-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     }
      
     
