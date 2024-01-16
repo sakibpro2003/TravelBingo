@@ -125,6 +125,56 @@ background: rgba(255, 255, 255, 0.30);
     width: 450px;
 }
 
+.your-destination{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.destination-title{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+    text-align: center;
+}
+
+.destination-description{
+    text-align: center;
+    margin: 25px 0;
+}
+
+.first2-img{
+    display: flex;
+    gap: 20px;
+}
+.three-image{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.last2-img{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .choose-us{
@@ -313,7 +363,21 @@ hr{
      .tour-text{
         /* padding: 15px; */
         margin-left: 1px;
+        width: 80%;
         /* overflow: hidden; */
+     }
+
+     .first2-img,.three-image,.last2-img{
+        flex-direction: column;
+     }
+
+
+    .destination-title{
+        margin-top: 0px;
+        font-size: 20px;
+     }
+     .destination-img-container img{
+        height: 175px;
      }
 
 
