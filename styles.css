@@ -106,31 +106,26 @@ background: #FFF;
 background: rgba(255, 255, 255, 0.30);
 }
 
-.popular-tours{
-    margin-top: 90px;
+/* tour sectino  */
+.tour-section{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 110px;
+    gap: 100px;
+    /* padding: 50px; */
+    width: 85%;
+    margin: 100px auto;
 }
 
-.popular-tour-text{
-    width: 550px;
-
+.tour-section img{
+    width: 100%;
 }
 
-.ul{
-    margin: 20px 0px;
+.tour-text{
+    width: 450px;
 }
 
-.popular-title{
-    margin-bottom: 20px;
-}
 
-.popular-tour-text p{
-    margin-bottom: 20px;
-    line-height: 35px;
-}
 
 .choose-us{
     width: 85%;
@@ -281,12 +276,15 @@ hr{
     .banner-img img {
          /* transform: scale(1.5); 
          transform-origin: center; */
-         width: 450px;
+         margin-top: 20px;
+         width: 350px;
          height: 550px;
+         border-radius: 16px;
      }
 
      .banner-content{
         width: 300px;
+        margin-top: 40px;
         padding: 0px;
 
      }
@@ -298,6 +296,27 @@ hr{
         display: flex;
         flex-direction: column;
      }
+
+
+     .tour-section{
+        flex-direction: column;
+        /* width: 300px; */
+        /* padding: 20px; */
+        /* margin: 0 auto; */
+        align-items: center;
+        justify-content: center;
+        /* text-align: left; */
+        /* font-size: 10px; */
+        gap: 20px;
+     }
+
+     .tour-text{
+        /* padding: 15px; */
+        margin-left: 1px;
+        /* overflow: hidden; */
+     }
+
+
 
 
 
